@@ -1,12 +1,13 @@
-![Cover Slide](https://raw.githubusercontent.com/eschabell/erics-images/master/brms_bpms_workshop/rewards-workshop.png)
+Online Workshops 
+----------------
+Create an account at http://openshift.redhat.com/
 
-![Rewards Process](https://raw.githubusercontent.com/eschabell/erics-images/master/brms_bpms_workshop/rewards-process.png)
+Create a PHP application
 
-Getting started with the workshop locally:
-------------------------------------------
+    rhc app create workshops -t php-5.4 --from-code git://github.com/eschabell/openshift-preso-workshops.git
 
-1. Clone project.
+That's it, you can now start your workshop at:
 
-2. Open in browser, `file:///<path-to-project>/presentation-bpmsuite-rewards-workshop/index.html`
+    http://workshops-$your_domain.rhcloud.com
 
-3. Enjoy the workshop! 
+![Cover Slide](https://raw.githubusercontent.com/eschabell/openshift-preso-workshops/master/cover.png)
