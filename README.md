@@ -1,3 +1,6 @@
+Update: June 2018 moved to [Gitlab](https://gitlab.com/eschabell/openshift-preso-workshops)
+
+
 Online Workshops 
 ----------------
 A set of workshops you can host online.
